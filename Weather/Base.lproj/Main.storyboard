@@ -22,7 +22,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tokyo_sunny" translatesAutoresizingMaskIntoConstraints="NO" id="RoI-ge-jUc">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tokyo_sunny1" translatesAutoresizingMaskIntoConstraints="NO" id="RoI-ge-jUc">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="19°" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="58g-mP-mZu">
@@ -71,6 +71,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="tokyo_sunny" width="600" height="800"/>
+        <image name="tokyo_sunny1" width="600" height="800"/>
     </resources>
 </document>
