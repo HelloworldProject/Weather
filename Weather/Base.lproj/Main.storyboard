@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_5" orientation="portrait">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -19,27 +19,27 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tokyo_sunny1" translatesAutoresizingMaskIntoConstraints="NO" id="RoI-ge-jUc">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tokyo_sunny3" translatesAutoresizingMaskIntoConstraints="NO" id="RoI-ge-jUc">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="19°" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="58g-mP-mZu">
-                                <rect key="frame" x="0.0" y="552" width="248" height="184"/>
+                                <rect key="frame" x="0.0" y="500.5" width="375" height="166.5"/>
                                 <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="160"/>
                                 <color key="textColor" white="0.95252821180555558" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="↑32° ↓10°" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lvH-dO-mxi">
-                                <rect key="frame" x="0.0" y="460" width="248" height="92"/>
+                                <rect key="frame" x="0.0" y="400" width="375" height="100.5"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="50"/>
                                 <color key="textColor" white="0.94712999129999997" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sunny" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EWg-iG-SNn">
-                                <rect key="frame" x="0.0" y="368" width="248" height="92"/>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="70"/>
+                                <rect key="frame" x="0.0" y="282.5" width="375" height="117.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="80"/>
                                 <color key="textColor" white="0.94712999131944442" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -49,17 +49,17 @@
                             <constraint firstItem="58g-mP-mZu" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="1ex-yh-QQQ"/>
                             <constraint firstItem="EWg-iG-SNn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="2FF-cQ-ERl"/>
                             <constraint firstItem="RoI-ge-jUc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="B3a-aA-e2J"/>
+                            <constraint firstItem="EWg-iG-SNn" firstAttribute="height" secondItem="58g-mP-mZu" secondAttribute="height" multiplier="0.7" id="Ffe-3i-CgX"/>
                             <constraint firstItem="58g-mP-mZu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="LRr-FW-G9r"/>
-                            <constraint firstItem="58g-mP-mZu" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.6" id="Pgk-lb-mfk"/>
+                            <constraint firstItem="58g-mP-mZu" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="Pgk-lb-mfk"/>
                             <constraint firstItem="RoI-ge-jUc" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="QVf-ea-mQy"/>
                             <constraint firstItem="RoI-ge-jUc" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="SvJ-fD-IYw"/>
                             <constraint firstItem="lvH-dO-mxi" firstAttribute="trailing" secondItem="58g-mP-mZu" secondAttribute="trailing" id="Vk4-S8-xP7"/>
                             <constraint firstItem="EWg-iG-SNn" firstAttribute="width" secondItem="lvH-dO-mxi" secondAttribute="width" id="cO4-AO-Ibu"/>
                             <constraint firstItem="58g-mP-mZu" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.25" id="dhI-X2-OQm"/>
-                            <constraint firstItem="EWg-iG-SNn" firstAttribute="height" secondItem="lvH-dO-mxi" secondAttribute="height" id="dxn-Tj-eg3"/>
                             <constraint firstItem="EWg-iG-SNn" firstAttribute="bottom" secondItem="lvH-dO-mxi" secondAttribute="top" id="jVi-q1-TVu"/>
                             <constraint firstItem="lvH-dO-mxi" firstAttribute="bottom" secondItem="58g-mP-mZu" secondAttribute="top" id="mCc-is-3fZ"/>
-                            <constraint firstItem="lvH-dO-mxi" firstAttribute="height" secondItem="58g-mP-mZu" secondAttribute="height" multiplier="0.5" id="mx2-dk-0SX"/>
+                            <constraint firstItem="lvH-dO-mxi" firstAttribute="height" secondItem="58g-mP-mZu" secondAttribute="height" multiplier="0.6" id="mx2-dk-0SX"/>
                             <constraint firstItem="RoI-ge-jUc" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="x6h-xk-FvB"/>
                             <constraint firstItem="lvH-dO-mxi" firstAttribute="leading" secondItem="58g-mP-mZu" secondAttribute="leading" id="zrK-g5-vi4"/>
                         </constraints>
@@ -71,6 +71,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="tokyo_sunny1" width="600" height="800"/>
+        <image name="tokyo_sunny3" width="400" height="600"/>
     </resources>
 </document>
